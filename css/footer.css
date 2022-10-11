@@ -1,0 +1,9 @@
+footer {
+	background: #fdfdfd;
+	text-align: center;
+}
+
+footer p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+}

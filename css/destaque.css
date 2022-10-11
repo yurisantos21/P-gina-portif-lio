@@ -1,0 +1,10 @@
+.destaque{
+	display: flex;
+	align-items: left;
+}
+
+.destaque__imagem{
+	max-width: 100px;
+	padding-left: 1.5rem;
+	border-radius: 5%;
+}

@@ -1,0 +1,69 @@
+.cabecalho{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.cabecalho__titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding-right: 1rem;
+	line-height: 18.78px;
+}
+
+.cabecalho__links {
+	display: none;
+}
+
+.cabecalho__links a {
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: #000000;
+	
+
+}
+
+.cabecalho__contato{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding-left: 1rem;
+	font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+	img {
+		margin-left: 3rem;
+	}
+
+	.cabecalho__titulo {
+		margin-right: 21rem;
+	}
+
+	.cabecalho__contato {
+		margin-right: 3rem;
+	}
+}
+
+@media (min-width: 1024px){
+	.cabecalho {
+		display: flex;
+		justify-content: space-around;
+	}
+
+
+	.cabecalho__links {
+		display: flex;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.cabecalho__links li {
+		font-size: 0.9rem;
+		margin-right: 1rem;
+	}
+
+
+	
+}

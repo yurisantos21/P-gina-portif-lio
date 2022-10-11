@@ -1,0 +1,17 @@
+.sobreMim{
+	background: #EAF2FD;
+
+}
+
+.sobreMim__titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 1.8rem;
+	margin: 2rem 1rem;
+}
+
+.sobreMim__descricao {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 1.3rem;
+	margin: 1rem 1rem;
+}

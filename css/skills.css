@@ -1,0 +1,30 @@
+.skills__titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 1.8rem;
+	margin: 2rem 1rem;
+	text-align: center;
+}
+
+.skills__grid {
+	 width: 100%;
+ 	 padding: 20px;
+	 box-sizing: border-box;
+
+	 display: grid;
+	 gap: 20px;
+
+	 grid-template-columns: 200px 200px;
+	 grid-template-columns: 1fr 1fr;
+}
+
+.skills__imagem {
+	max-height: 80%;
+	max-width: 80%;
+}
+
+@media (min-width: 768px) {
+	.skills__grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

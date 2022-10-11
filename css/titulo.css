@@ -1,0 +1,43 @@
+.titulo__apresentacao{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 1.8rem;
+	margin: 1rem 1rem;
+}
+
+.titulo__descricao{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3rem;
+	margin: 1rem 1rem;
+}
+
+.titulo__sociais{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 1.2rem;
+	margin: 1rem 1rem;
+}
+
+.titulo__sociais a{
+	color: #000000;
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.titulo {
+		display: flex;
+	}
+
+	.titulo img {
+		margin-right: 0.3rem;
+	}
+
+	.titulo__texto {
+		display: block;
+	}
+
+	.destaque__imagem {
+		max-width: 30%;
+	}
+}

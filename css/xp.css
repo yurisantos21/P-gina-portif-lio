@@ -1,0 +1,75 @@
+.xp__titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 1.8rem;
+	margin: 2rem 1rem;
+	text-align: center;
+}
+
+.xp__imagem {
+	max-height: 218px;
+	max-width: 340px;
+
+	margin-left: 10px;
+}
+
+.xp__repositorioBotao {
+	width: 9rem;
+	height: 2.65rem;
+	border-color: #2A7AE4;
+	background-color: transparent;
+}
+
+.xp__repositorioBotao a {
+	color: #2A7AE4;
+	font-weight: 300;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.xp__demoBotao {
+	width: 7rem;
+	line-height: 2.65rem;
+	background-color: #2A7AE4;
+	border: none;
+}
+
+.xp__demoBotao a {
+	color: #fdfdfd;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.xp {
+	background: #fdfdfd;
+}
+
+@media (min-width: 768px) {
+	.xp__imagem {
+		margin-top: 2rem;
+		margin-left: 8rem;
+	}
+
+	.xp figcaption {
+		margin-right: 7rem;
+	}
+
+	.xp__botoes {
+		margin-left: 14rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.xp__imagem {
+		margin-top: 4rem;
+		margin-left: 16rem;
+	}
+
+	.xp figcaption {
+		margin-right: 7rem;
+	}
+
+	.xp__botoes {
+		margin-left: 22rem;
+	}
+}
